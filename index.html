@@ -14,7 +14,7 @@
             line-height: 1.8; /* 增加行高以提高可讀性 */
             margin: 0 auto; /* 居中頁面內容 */
             padding: 20px; /* 增加整體內邊距 */
-            max-width: 960px; /* 稍微增加最大寬度，但仍保持適中 */
+            max-width: 1000px; /* 增加最大寬度，提供更多空間 */
             color: #333;
             background-color: #f9f9f9;
         }
@@ -59,19 +59,26 @@
             margin: 25px 0; /* 增加表格上下間距 */
             background-color: #fff;
             box-shadow: 0 2px 15px rgba(0,0,0,0.1); /* 增加陰影效果 */
-            overflow-x: auto; /* 允許表格在小螢幕上水平滾動 */
             display: block; /* 讓表格在小螢幕上表現為塊級元素，以便滾動 */
+            overflow-x: auto; /* 允許表格在小螢幕上水平滾動 */
+            -webkit-overflow-scrolling: touch; /* 改善移動設備上的滾動體驗 */
         }
         th, td {
             border: 1px solid #ddd;
             padding: 12px; /* 增加單元格內邊距 */
             text-align: left;
             vertical-align: top; /* 內容頂部對齊 */
+            /* white-space: nowrap; /* 移除此行，讓表格內容在需要時自動換行 */
         }
         th {
             background-color: #e9ecef; /* 調整表頭背景色 */
             font-weight: bold;
             color: #495057;
+        }
+        /* 針對表格內容過長時的自動換行，確保內容不會被截斷 */
+        td {
+            white-space: normal; /* 恢復正常換行 */
+            word-wrap: break-word; /* 長單詞自動換行 */
         }
 
         /* 列表樣式 */
@@ -94,7 +101,7 @@
         a:hover {
             text-decoration: underline;
         }
-       .citation {
+     .citation {
             font-size: 0.9em;
             color: #666;
         }
@@ -341,7 +348,7 @@
                 <td>AI驅動的個性化玩具、AR/VR增強現實遊戲</td>
                 <td>生成式AI、語音識別、情感分析、機器學習、AR/VR技術、自然語言處理</td>
                 <td>適應兒童行為、個性化互動、情感回應、學習支持</td>
-                <td><strong>產品創新：</strong> 整合AI實現情感對話、個性化學習、記憶保留。 <strong>市場定位：</strong> 從性滿足轉向情感陪伴、治療應用、個性化伴侶。</td>
+                <td><strong>產品創新：</strong> 整合AI實現情感對話、個性化學習、記憶保留。 <strong>市場定位：：</strong> 從性滿足轉向情感陪伴、治療應用、個性化伴侶。</td>
             </tr>
             <tr>
                 <td>娛樂產業</td>
@@ -358,7 +365,7 @@
     <h3>性愛機器人引發的倫理爭議</h3>
     <p>性愛機器人的發展引發了廣泛的倫理爭議，這些爭議不僅影響公眾對產品的接受度，也對產業的發展方向構成深遠影響。</p>
     <p><strong>物化與刻板印象：</strong> 批評者認為，性愛機器人，特別是女性形象的機器人，可能加劇對女性的物化，強化父權制規範和有害的性別刻板印象，例如女性應順從、只為取悅男性而存在 [span_327](start_span)[span_327](end_span)[span_328](start_span)[span_328](end_span)[span_329](start_span)[span_329](end_span)[span_330](start_span)[span_330](end_span)[span_331](start_span)[span_331](end_span)[span_332](start_span)[span_332](end_span)[span_333](start_span)[span_333](end_span)。這種觀點認為，機器人作為慾望的客體，被設計來反映現代男性的需求，其順從性可能導致對真實女性的物化和潛在的虐待行為 [span_334](start_span)[span_334](end_span)。</p>
-    <p><strong>同意與性暴力模擬：</strong> 由於機器人無法真正給予同意，與其發生性行為引發了關於「同意」概念模糊化的倫理擔憂 [span_337](start_span)[span_337](end_span)[span_338](start_span)[span_338](end_span)[span_339](start_span)[span_339](end_span)。一些學者認為，這種缺乏同意的互動可能導致用戶將性行為中的同意視為無關緊要。此外，模擬強姦或其他形式性暴力的機器人（或兒童形象的機器人）可能鼓勵用戶將這些行為轉移到現實生活中，加劇對真實個體的性暴力 [span_340](start_span)[span_340](end_span)[span_341](start_span)[span_341](end_span)[span_342](start_span)[span_342](end_span)[span_343](start_span)[span_343](end_span)[span_344](start_span)[span_344](end_span)[span_345](start_span)[span_345](end_span)。例如，美國的《2023年司法法案》就明確指出，兒童性愛娃娃可能導致強姦，並通過教導強姦犯如何克服抵抗和制服受害者來使其更容易實施犯罪 [span_346](start_span)[span_346](end_span)。</p>
+    <p><strong>同意與性暴力模擬：：</strong> 由於機器人無法真正給予同意，與其發生性行為引發了關於「同意」概念模糊化的倫理擔憂 [span_337](start_span)[span_337](end_span)[span_338](start_span)[span_338](end_span)[span_339](start_span)[span_339](end_span)。一些學者認為，這種缺乏同意的互動可能導致用戶將性行為中的同意視為無關緊要。此外，模擬強姦或其他形式性暴力的機器人（或兒童形象的機器人）可能鼓勵用戶將這些行為轉移到現實生活中，加劇對真實個體的性暴力 [span_340](start_span)[span_340](end_span)[span_341](start_span)[span_341](end_span)[span_342](start_span)[span_342](end_span)[span_343](start_span)[span_343](end_span)[span_344](start_span)[span_344](end_span)[span_345](start_span)[span_345](end_span)。例如，美國的《2023年司法法案》就明確指出，兒童性愛娃娃可能導致強姦，並通過教導強姦犯如何克服抵抗和制服受害者來使其更容易實施犯罪 [span_346](start_span)[span_346](end_span)。</p>
     <p><strong>對人際關係的影響：</strong> 有學者擔憂，過度依賴性愛機器人可能損害人類的同理心、親密關係和社會凝聚力，導致用戶與真實人際關係的疏離和不健康的依戀 [span_347](start_span)[span_347](end_span)[span_348](start_span)[span_348](end_span)[span_349](start_span)[span_349](end_span)[span_350](start_span)[span_350](end_span)。這種擔憂源於機器人能提供「朋友和女朋友」的妥協方案 [span_335](start_span)[span_335](end_span)，滿足了人們既渴望陪伴又害怕親密的心理。然而，這種單向的關係可能導致用戶對真實人際關係產生不切實際的期望，並減少他們在現實世界中建立關係的努力 [span_224](start_span)[span_224](end_span)。</p>
     <p>倫理爭議不僅是負面因素，更是產業發展的「社會許可證」。若產業不能有效回應這些倫理擔憂，將難以獲得廣泛的社會接受度，甚至可能面臨更嚴格的監管和禁令 [span_351](start_span)[span_351](end_span)[span_352](start_span)[span_352](end_span)[span_353](start_span)[span_353](end_span)[span_354](start_span)[span_354](end_span)。因此，積極參與倫理討論、制定行業自律規範，是企業長期發展的必要條件。</p>
 
@@ -398,20 +405,20 @@
         <li><strong>市場重新定位與品牌轉型：</strong>
             <ul>
                 <li><strong>轉向陪伴型產品：</strong> 將產品定位從單純的性玩具轉變為能夠提供情感陪伴、解決孤獨感的「伴侶型產品」，調整營銷策略和品牌敘事。</li>
-                <li><strong>拓展多元應用場景：</strong> 積極探索性愛機器人在性健康、心理治療和老年護理等領域的潛力，與醫療專業人士合作開發治療型產品，提升產品的社會價值。</li>
-                <li><strong>建立包容性品牌形象：：</strong> 通過包容性品牌建設和營銷活動，消除污名，強調性健康、個人幸福和情感福祉，吸引更廣泛的消費者群體。</li>
+                <li><strong>拓展多元應用場景：：</strong> 積極探索性愛機器人在性健康、心理治療和老年護理等領域的潛力，與醫療專業人士合作開發治療型產品，提升產品的社會價值。</li>
+                <li><strong>建立包容性品牌形象：</strong> 通過包容性品牌建設和營銷活動，消除污名，強調性健康、個人幸福和情感福祉，吸引更廣泛的消費者群體。</li>
             </ul>
         </li>
         <li><strong>加強產業合作與生態系統建設：</strong>
             <ul>
-                <li><strong>戰略性跨界合作：：</strong> 與AI、機器人技術公司建立戰略合作夥伴關係，通過技術許可、聯合研發或合資等模式，彌補自身在尖端技術上的不足。</li>
+                <li><strong>戰略性跨界合作：</strong> 與AI、機器人技術公司建立戰略合作夥伴關係，通過技術許可、聯合研發或合資等模式，彌補自身在尖端技術上的不足。</li>
                 <li><strong>借鑒成功經驗：</strong> 深入研究玩具和娛樂產業在AI/VR應用方面的成功轉型案例，學習如何將「產品」轉化為「個性化、沉浸式體驗」，並將這些經驗應用於性科技產業。</li>
             </ul>
         </li>
         <li><strong>積極應對倫理、社會與法律挑戰：</strong>
             <ul>
-                <li><strong>制定行業自律規範：</strong> 建立清晰的倫理準則，確保產品設計促進同意、尊重和同理心，避免物化和性暴力模擬，並明確禁止兒童形象的機器人。</li>
-                <li><strong>提升公眾認知與透明度：</strong> </strong>積極參與公眾教育，提高透明度，清晰闡釋產品功能和益處，同時不迴避倫理挑戰，以建立信任和提升社會接受度。</li>
+                <li><strong>制定行業自律規範：：</strong> 建立清晰的倫理準則，確保產品設計促進同意、尊重和同理心，避免物化和性暴力模擬，並明確禁止兒童形象的機器人。</li>
+                <li><strong>提升公眾認知與透明度：</strong> 積極參與公眾教育，提高透明度，清晰闡釋產品功能和益處，同時不迴避倫理挑戰，以建立信任和提升社會接受度。</li>
                 <li><strong>參與監管框架制定：</strong> 主動與政府和監管機構合作，推動建立清晰、前瞻性的法律框架，解決產品安全、數據隱私等問題，確保產業在合規的環境中發展。</li>
             </ul>
         </li>
@@ -422,7 +429,7 @@
     <ol>
         <li><strong>技術融合的深化：</strong> AI、機器人技術、虛擬實境（VR）、擴增實境（AR）和觸覺反饋技術將進一步融合，創造出更具沉浸感、更智能、更具互動性的性愛機器人體驗。</li>
         <li><strong>個性化與情感智能的極致追求：</strong> 未來的性愛機器人將在個性化和情感智能方面達到前所未有的高度，能夠更精準地理解和回應用戶的情感需求，提供深度定制的陪伴體驗。</li>
-        <li><strong>應用場景的拓展：：</strong> 產品將進一步拓展到治療、健康、教育和老年護理等多元應用場景，從而獲得更廣泛的社會認可和更高的附加值。</li>
+        <li><strong>應用場景的拓展：</strong> 產品將進一步拓展到治療、健康、教育和老年護理等多元應用場景，從而獲得更廣泛的社會認可和更高的附加值。</li>
         <li><strong>倫理與監管的演進：</strong> 隨著技術的發展和社會討論的深入，倫理設計、數據隱私和負責任的AI使用將成為行業發展的關鍵。監管框架也將逐步完善，以應對新興技術帶來的挑戰。</li>
         <li><strong>人機關係的重新定義：</strong> 性愛機器人將在一定程度上補充而非完全取代人類的親密關係 [span_373](start_span)[span_373](end_span)[span_374](start_span)[span_374](end_span)。它們將作為滿足特定需求、緩解孤獨感的工具，促使社會重新思考人際關係的本質和界限。</li>
     </ol>
